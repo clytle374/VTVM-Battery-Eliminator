@@ -1,0 +1,213 @@
+(footprint "ZPI03S0600WC"
+	(version 20231231)
+	(generator "pcbnew")
+	(generator_version "7.99")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -16.5 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "07cfcd23-0399-48c2-804d-c71eded7bccd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BV301S06023"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ee209ff2-51f6-491d-87fb-1a5b1a47cd0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77f69445-1aff-423f-81fc-44ecc0cec57a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b92cda70-fe66-4363-be11-fe0766f2529e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "abc2fa69-dc87-418f-aabf-6bc0a3ce113d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -14.605 -14.605)
+		(end -14.605 14.605)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4945cc93-f326-4381-84cb-6f19d601b30a")
+	)
+	(fp_line
+		(start -14.605 14.605)
+		(end 14.605 14.605)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6c489cc2-b539-46d9-8df3-b0cd35c378de")
+	)
+	(fp_line
+		(start -12.192 -14.605)
+		(end -14.605 -14.605)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "95bd193e-610f-40dd-af59-1f726c3a0a1f")
+	)
+	(fp_line
+		(start 14.605 -14.605)
+		(end -12.192 -14.605)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5aba7118-aae4-43d7-a9a1-bd68bd86bcc9")
+	)
+	(fp_line
+		(start 14.605 14.605)
+		(end 14.605 -14.605)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c5041b43-b7c6-4d85-820d-b57cf15d33a1")
+	)
+	(fp_line
+		(start -12.9032 -12.9032)
+		(end -12.9032 7.9756)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b572f723-d11f-4c97-b01b-b899446e03da")
+	)
+	(fp_line
+		(start -12.9032 -12.9032)
+		(end 12.9032 -12.9032)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "39d06404-08db-4df0-8590-0e50a701d4e5")
+	)
+	(fp_line
+		(start -12.9032 7.9756)
+		(end -7.9756 12.9032)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f987f938-357c-4327-87e7-fce7a9c1c886")
+	)
+	(fp_line
+		(start 12.9032 -12.9032)
+		(end 12.9032 12.9032)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4d22ddb8-796e-49e0-964b-d38f81b17588")
+	)
+	(fp_line
+		(start 12.9032 12.9032)
+		(end -7.9756 12.9032)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f8b1def3-45fa-4cbf-8bc2-b0cf985e1164")
+	)
+	(fp_line
+		(start 13.081 7.493)
+		(end 12.954 7.62)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "26ea982c-e3c1-43e0-97e3-0a273331e476")
+	)
+	(pad "1" thru_hole oval
+		(at 7.49808 7.49808)
+		(size 3.81 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "cf873758-aa1f-4d47-ac96-11a89718cbc6")
+	)
+	(pad "2" thru_hole oval
+		(at -7.49808 7.49808)
+		(size 3.81 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "ecaf2714-4db5-4418-afbc-3defbf27c21c")
+	)
+	(pad "3" thru_hole oval
+		(at 2.5019 -7.49808)
+		(size 3.81 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "c5703cee-30d6-4a68-8300-8e14d2dc88ed")
+	)
+	(pad "4" thru_hole oval
+		(at -2.5019 -7.49808)
+		(size 3.81 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "4d7bb00b-60ad-4ceb-a009-97d6f46208b6")
+	)
+)
